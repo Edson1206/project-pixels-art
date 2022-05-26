@@ -6,7 +6,7 @@
   height: 50px;
   width: 50px;
   border: black solid 1px;
-  display: inline-block
+  display: inline-block;
 }
 
 #black {
@@ -25,3 +25,14 @@
   background-color: maroon;
 }
 
+#pixel-board {
+  width: 250px;
+}
+
+.pixel {
+  background-color: white;
+  height: 40px;
+  width: 40px;
+  border: black solid 1px;
+  display: inline-block;
+}
