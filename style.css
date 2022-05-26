@@ -25,8 +25,12 @@
   background-color: maroon;
 }
 
+.selected {
+  background-color: black;
+}
+
 #pixel-board {
-  width: 250px;
+  width: 240px;
 }
 
 .pixel {
