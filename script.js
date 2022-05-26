@@ -14,8 +14,7 @@ function makePixelSquares() {
 }
 makePixelSquares();
 
-// Função para definir qual cor será selecionada:
-
+// Função para "pegar" a cor selecionada na palheta:
 const palette = document.getElementsByClassName('color');
 
 function selectColor(origin) {
@@ -29,6 +28,7 @@ for (let index = 0; index < palette.length; index += 1) {
   palette[index].addEventListener('click', selectColor);
 }
 
+// Função para "pintar" o pixel com a cor selecionada:
 const addColorPixel = document.getElementsByClassName('pixel');
 
 function selectPixel(origin) {
@@ -38,8 +38,3 @@ function selectPixel(origin) {
 for (let index = 0; index < addColorPixel.length; index += 1) {
   addColorPixel[index].addEventListener('click', selectPixel);
 }
-
-window.onload = function black() {
-  palette[0].classList.add('selected');
-  black();
-};
