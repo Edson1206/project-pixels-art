@@ -38,3 +38,12 @@ function selectPixel(origin) {
 for (let index = 0; index < addColorPixel.length; index += 1) {
   addColorPixel[index].addEventListener('click', selectPixel);
 }
+
+// Função para fazer o botão de reset dos pixels:
+
+function cleanPixels() {
+  for (let index = 0; index < addColorPixel.length; index += 1) {
+    addColorPixel[index].style.backgroundColor = 'white';
+  }
+}
+cleanPixels();

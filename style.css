@@ -40,3 +40,10 @@
   border: black solid 1px;
   display: inline-block;
 }
+
+#clear-board {
+  background-color: green;
+  color: white;
+  margin: 10px;
+  margin-left: 76px;
+}
