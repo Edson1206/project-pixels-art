@@ -13,12 +13,58 @@
   </header>
   <div id="color-palette">
     <div class="color selected" id="black"></div>
-    <div class="color" id="blue"></div>
-    <div class="color" id="orange"></div>
-    <div class="color" id="maroon"></div>
+    <div class="color" id="random-color-1"></div>
+    <div class="color" id="random-color-2"></div>
+    <div class="color" id="random-color-3"></div>
   </div>
-  <button id="clear-board" onclick="cleanPixels()">Limpar</button>
+  <div class="random-color-container">
+    <button type="button" id="color-random-button">
+      Random Colors!
+    </button>
+  </div>
+  <div id="generate-board-container">
+    <input type="number" id="board-size" min="1" max="50">
+    <button id="generate-board">VQV</button>
+  </div>
+  <div id="clear-board-container">
+    <button id="clear-board" onclick="cleanPixels()">Limpar</button>
+  </div>
   <div id="pixel-board">
+    <div class="row">
+      <div class="pixel"></div>
+      <div class="pixel"></div>
+      <div class="pixel"></div>
+      <div class="pixel"></div>
+      <div class="pixel"></div>
+  </div>
+  <div class="row">
+      <div class="pixel"></div>
+      <div class="pixel"></div>
+      <div class="pixel"></div>
+      <div class="pixel"></div>
+      <div class="pixel"></div>
+  </div>
+  <div class="row">
+      <div class="pixel"></div>
+      <div class="pixel"></div>
+      <div class="pixel"></div>
+      <div class="pixel"></div>
+      <div class="pixel"></div>
+  </div>
+  <div class="row">
+      <div class="pixel"></div>
+      <div class="pixel"></div>
+      <div class="pixel"></div>
+      <div class="pixel"></div>
+      <div class="pixel"></div>
+  </div>
+  <div class="row">
+      <div class="pixel"></div>
+      <div class="pixel"></div>
+      <div class="pixel"></div>
+      <div class="pixel"></div>
+      <div class="pixel"></div>
+  </div>
   </div>
 </body>
 <script src="script.js"></script>

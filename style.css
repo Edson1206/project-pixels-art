@@ -1,5 +1,17 @@
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
 #color-palette {
-  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+#generate-board-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
 }
 
 .color {
@@ -13,38 +25,39 @@
   background-color: black;
 }
 
-#blue {
-  background-color: blue;
-}
-
-#orange {
-  background-color: orange;
-}
-
-#maroon {
-  background-color: maroon;
-}
-
 .selected {
   background-color: black;
 }
 
 #pixel-board {
-  width: 240px;
+  width: fit-content;
+  margin: auto;
 }
 
+#clear-board-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.random-color-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  
 .pixel {
   background-color: white;
   height: 40px;
   width: 40px;
   border: black solid 1px;
   display: inline-block;
-  margin-bottom: -4px;
-}
-
-#clear-board {
-  background-color: green;
-  color: white;
-  margin: 10px;
-  margin-left: 76px;
 }
